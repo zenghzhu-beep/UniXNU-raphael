@@ -90,7 +90,7 @@ unique_chip_id = "required"
 # Match the working guacamole shim window. raphael has 6/8 GiB DRAM; 3 GiB also
 # gives XNU the full kernel-managed RAM range and reserves enough early I/O
 # page tables for the framebuffer.
-owned_memory_size = "0xc80000000"
+owned_memory_size = "0xc8000000"
 
 [bootimg.image]
 base = 0x0
